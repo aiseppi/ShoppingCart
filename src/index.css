@@ -1,14 +1,39 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
-
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: "Primary";
+  src: url("/fonts/Aesthetic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Secondary-Regular";
+  src: url("/fonts/CooperRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Secondary-Italic";
+  src: url("/fonts/CooperRegularItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Secondary-Light";
+  src: url("/fonts/CooperLight.ttf") format("truetype");
+}
+:root {
+  --darkest-purple: #3c1361;
+  --darker-purple: #52307c;
+  --dark-purple: #663a82;
+  --less-dark-purple: #7c5295;
+  --logo-purple: #b491c8;
+  --lightest-purple: #b491c8;
+  --white: #ffffff;
+  --primary: "Primary";
+  --secondary-regular: "Secondary-Regular";
+  --secondary-italic: "Secondary-Italic";
+  --secondary-light: "Secondary-Light";
 }
 
-html {
-  font-family: "Noto Sans JP", sans-serif;
+* {
+  font-family: var(--secondary-regular);
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  background-color: #3f3f3f;
+  background-color: url(--);
 }
