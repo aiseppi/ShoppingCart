@@ -15,7 +15,6 @@
 }
 
 .description {
-  /* font-style: italic; */
   font-family: var(--secondary-italic);
   color: var(--logo-purple);
 }
@@ -25,4 +24,11 @@
   font-weight: bold;
   color: var(--dark-gray);
   font-size: 1.25rem;
+}
+
+.img {
+  width: 10rem;
+  height: 8rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 0.25rem;
 }

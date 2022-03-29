@@ -1,19 +1,20 @@
 import classes from "./SweetsSummary.module.css";
 
-const MealsSummary = () => {
+const SweetsSummary = () => {
   return (
     <section className={classes.summary}>
       <h2>ALL NATURAL INGREDIENTS</h2>
       <p>
-        Choose your favorite meal from our broad selection of available meals
-        and enjoy a delicious lunch or dinner at home.
+        Here at Violet's Sweet Treats all of our goods are made with
+        high-quality, natural, and locally-sourced ingredients. All of our
+        delicious items are crafted fresh from scratch ever day in our bakery.
       </p>
       <p>
-        All our meals are cooked with high-quality ingredients, just-in-time and
-        of course by experienced chefs!
+        Choose below from our broad selection of available sweets and enjoy a
+        delicious treat!
       </p>
     </section>
   );
 };
 
-export default MealsSummary;
+export default SweetsSummary;
